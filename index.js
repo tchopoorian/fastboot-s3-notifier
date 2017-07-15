@@ -20,8 +20,8 @@ class S3Notifier {
       // apiVersion: '2006-03-01',
       // signatureVersion: 'v4',
       region: options.region,
-      accessKeyId: process.env.FASTBOOT_S3_KEY;,
-      secretAccessKey: process.env.FASTBOOT_S3_SECRET;
+      accessKeyId: process.env.FASTBOOT_S3_KEY,
+      secretAccessKey: process.env.FASTBOOT_S3_SECRET
     });
   }
 
